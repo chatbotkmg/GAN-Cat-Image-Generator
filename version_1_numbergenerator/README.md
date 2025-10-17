@@ -22,17 +22,17 @@ The goal of this version is to showcase the basic working of a GAN applied to a 
 Navigate to the version_1 directory:
 
 bash
-复制代码
+
 cd version_1
 Install dependencies (if not installed):
 
 bash
-复制代码
+
 pip install -r requirements.txt
 Run the code:
 
 bash
-复制代码
+
 python hand_written_number_generator.py
 Current Issues and Next Steps
 The current generator struggles to generate high-quality images and needs further improvements, such as increasing the network complexity (e.g., using Convolutional Neural Networks).
