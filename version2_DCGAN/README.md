@@ -88,21 +88,5 @@ cat_generatored/generated_epoch_5.png
 cat_generatored/generated_epoch_10.png
 The FID score is also displayed in the terminal output every 5 epochs to track the progress of the model. A lower FID score indicates better image quality.
 
-Uploading to GitHub
-Create README file in your project directory: If you haven't already, create a file README.md in the /version2_DCGAN/ folder and add the content above.
 
-Push to GitHub:
-
-Initialize Git in your project directory (if you haven’t already):
-
-
-cd /kaggle/working/cat_gan/GAN-Cat-Image-Generator/version2_DCGAN/
-git init
-git add .
-git commit -m "Add README and project files"
-git remote add origin <your-repository-url>
-git push -u origin main
-Replace <your-repository-url> with your GitHub repository URL.
-
-Once done, your GitHub repository will contain both the code and the README that explains the progress of the project, its limitations, and future improvements in version 3.
 
